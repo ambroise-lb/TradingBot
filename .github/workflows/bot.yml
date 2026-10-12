@@ -1,0 +1,32 @@
+name: bot-paper-trading
+
+on:
+  schedule:
+    - cron: "*/15 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: bot
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - run: python bot.py
+      - name: Sauvegarder l'etat dans le depot
+        run: |
+          git config user.name "paper-bot"
+          git config user.email "paper-bot@users.noreply.github.com"
+          git add state.json journal.csv
+          git diff --staged --quiet || git commit -m "passage $(date -u +%Y-%m-%dT%H:%MZ)"
+          git push
