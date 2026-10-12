@@ -1,0 +1,40 @@
+{
+  "features": [
+    "imb1",
+    "imb6",
+    "imb12",
+    "imb48",
+    "mom6",
+    "mom12",
+    "mom48",
+    "mom288",
+    "vol12",
+    "vol288",
+    "ratio_vol",
+    "vol_rel",
+    "trades_rel",
+    "z_vwap",
+    "dist_haut48",
+    "dist_bas48",
+    "x_mom12",
+    "x_mom48",
+    "x_imb12",
+    "x_imb48",
+    "x_vol12",
+    "ecart_mom12",
+    "ecart_mom48",
+    "h_sin",
+    "h_cos",
+    "jour_semaine"
+  ],
+  "horizon_barres_5m": 12,
+  "seuil_entree": 0.5624168121369607,
+  "seuil_sortie": 0.44065876933755055,
+  "frais_simules": [
+    0,
+    0.0002,
+    0.0005,
+    0.001
+  ],
+  "entraine_jusqu_a": "2026-09-30 20:00:00+00:00"
+}
