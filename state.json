@@ -1,10 +1,10 @@
 {
   "debut": "2026-10-12 20:47:55.013625+00:00",
   "prix_debut": 83096.01,
-  "derniere_decision": "2026-10-29 15:45:00+00:00",
+  "derniere_decision": "2026-10-29 16:00:00+00:00",
   "en_position": 0,
-  "dernier_prix": 81828.21,
-  "equity_bh": 0.9847429497517374,
+  "dernier_prix": 81761.07,
+  "equity_bh": 0.9839349687187131,
   "scenarios": {
     "0": {
       "equity": 1.0299704915893575,
