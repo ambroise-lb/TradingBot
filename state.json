@@ -1,26 +1,26 @@
 {
   "debut": "2026-10-12 20:47:55.013625+00:00",
   "prix_debut": 83096.01,
-  "derniere_decision": "2026-11-02 19:30:00+00:00",
-  "en_position": 0,
-  "dernier_prix": 77000.01,
-  "equity_bh": 0.9266390768943037,
+  "derniere_decision": "2026-11-02 19:45:00+00:00",
+  "en_position": 1,
+  "dernier_prix": 76754.0,
+  "equity_bh": 0.9236785255994823,
   "scenarios": {
     "0": {
       "equity": 0.990889052856839,
-      "trades": 30
+      "trades": 31
     },
     "0.0002": {
-      "equity": 0.9849609278685497,
-      "trades": 30
+      "equity": 0.984763935682976,
+      "trades": 31
     },
     "0.0005": {
-      "equity": 0.9761329750650977,
-      "trades": 30
+      "equity": 0.9756449085775651,
+      "trades": 31
     },
     "0.001": {
-      "equity": 0.961589422014266,
-      "trades": 30
+      "equity": 0.9606278325922517,
+      "trades": 31
     }
   }
 }
